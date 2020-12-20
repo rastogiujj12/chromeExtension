@@ -1,0 +1,15 @@
+{
+    "name": "Web Audio Channel Selector",
+    "version": "1.0",
+    "description": "Turn on or off whatever audio channels you want",
+    "permissions": ["activeTab", "declarativeContent", "storage"],
+    "options_page": "options.html",
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    },
+    "page_action": {
+        "default_popup": "popup.html"
+    },
+    "manifest_version": 2
+  }
